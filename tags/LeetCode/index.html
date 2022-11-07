@@ -1673,9 +1673,9 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     debug: "env",
     cdn: {"js":{"app":"/js/app.js","parallax":"/js/plugins/parallax.js","rightMenu":"/js/plugins/rightMenu.js","rightMenus":"/js/plugins/rightMenus.js","sites":"/js/plugins/tags/sites.js","friends":"/js/plugins/tags/friends.js","contributors":"/js/plugins/tags/contributors.js","search":"/js/search/hexo.js"},"css":{"style":"/css/style.css"}},
     default: {"avatar":"https://unpkg.com/volantis-static@0.0.1654736714924/media/placeholder/avatar/round/3442075.svg","link":"https://unpkg.com/volantis-static@0.0.1654736714924/media/placeholder/link/8f277b4ee0ecd.svg","cover":"https://unpkg.com/volantis-static@0.0.1654736714924/media/placeholder/cover/76b86c0226ffd.svg","image":"https://unpkg.com/volantis-static@0.0.1654736714924/media/placeholder/image/2659360.svg"},
-    lastupdate: new Date(1667752822373),
+    lastupdate: new Date(1667825260925),
     sidebar: {
-      for_page: ["blogger","category","tagcloud","donate","text"],
+      for_page: ["blogger","category","tagcloud","text"],
       for_post: ["toc"],
       webinfo: {
         lastupd: {
@@ -1683,7 +1683,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
           friendlyShow: true
         },
         runtime: {
-          data: "2020/01/01",
+          data: "2022/09/28",
           unit: "天"
         }
       }
@@ -2679,7 +2679,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     
       
   
-  <section class="widget tagcloud desktop mobile pjax">
+  <section class="widget tagcloud desktop pjax">
     
   <header>
     
@@ -2698,8 +2698,6 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
   
 
   
-
-  
     
     
       
@@ -2707,7 +2705,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
   
   <header>
     
-      <a target="_blank" rel="noopener" href='https://github.com/kerwinthink/kerwinthink.github.io'><i class="fab fa-github fa-fw" aria-hidden="true"></i><span class='name'>Star一下</span></a>
+      <a target="_blank" rel="noopener" href='https://github.com/kerwinthink/kerwinthink.github.io'><i class="fab fa-github fa-fw" aria-hidden="true"></i><span class='name'>Github Star</span></a>
     
   </header>
 
@@ -3068,7 +3066,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
   function pjax_giscus() {
     const HEAD = check_giscus();
     if (!HEAD) return;
-    let cfg = Object.assign({"theme":{"light":"light","dark":"dark"}},pdata.commentConfig)
+    let cfg = Object.assign({"theme":{"light":"light","dark":"dark"},"repo":"kjhuanhao/comments","repo-id":"R_kgDOHhCnGA","category":"Announcements","category-id":"xxxDIC_kwDOHhCnGM4CPuKz","mapping":"pathname","reactions-enabled":"1","emit-metadata":"0","lang":"zh-CN"},pdata.commentConfig)
     const script = document.createElement('script');
     script.setAttribute('src', 'https://giscus.app/client.js');
     Object.keys(cfg).forEach(k=>{
@@ -3189,7 +3187,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 
 
   <script>
-  let imgs = ["/img/pixel (4).jpg","/img/pixel (8).jpg","/img/pixel (5).jpg","/img/pixel (7).jpg","/img/pixel (10).jpg","/img/pixel (1).jpg","/img/pixel (9).jpg","/img/pixel (6).jpg","/img/pixel (3).jpg","/img/pixel (2).jpg"];
+  let imgs = ["/img/pixel (3).jpg","/img/pixel (5).jpg","/img/pixel (7).jpg","/img/pixel (1).jpg"];
   let index = 0;
   let IntervalParallax = null;
 
